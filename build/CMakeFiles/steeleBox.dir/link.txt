@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\steeleBox.dir/objects.a
-C:\msys64\mingw64\bin\llvm-ar.exe qc CMakeFiles\steeleBox.dir/objects.a @CMakeFiles\steeleBox.dir\objects1.rsp
-c:\msys64\mingw64\bin\clang++.exe -g -Wl,--whole-archive CMakeFiles\steeleBox.dir/objects.a -Wl,--no-whole-archive -o steeleBox.exe -Wl,--out-implib,libsteeleBox.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\steeleBox.dir\linklibs.rsp
