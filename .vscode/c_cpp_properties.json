@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${vcpkgRoot}/x64-mingw-dynamic/include"
+            ],
+            "defines": [
+                "_RELEASE",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/msys64/mingw64/bin/clang++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cpptools",
+            "windowsSdkVersion": "10.0.17134.0"
+        }
+    ],
+    "version": 4
+}
