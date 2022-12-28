@@ -18,9 +18,6 @@ add_executable(${project_name} ${APP_SOURCES})
 # set the directories for include files
 set (APP_INCLUDE_DIRS "${CMAKE_CURRENT_SOURCE_DIR}")
 list (APPEND APP_INCLUDE_DIRS "${CMAKE_CURRENT_SOURCE_DIR}/include")
-# list (APPEND APP_INCLUDE_DIRS "D:/KyawThu/Programming/KT_CPP2021/includesCPP/csv")
-# list (APPEND APP_INCLUDE_DIRS "D:/KyawThu/Programming/KT_CPP2021/includesCPP/refprop")
-# list (APPEND APP_INCLUDE_DIRS "D:/KyawThu/Programming/KT_CPP2021/includesCPP/numerical")
 
 target_include_directories(${project_name} PUBLIC ${APP_INCLUDE_DIRS})
 
@@ -33,8 +30,6 @@ target_link_libraries (${project_name} PUBLIC Eigen3::Eigen)
 # find_package(TBB REQUIRED)
 # target_link_libraries(${project_name} PUBLIC TBB::tbb)
 # target_include_directories(${project_name} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
-# target_include_directories(${project_name} PUBLIC G:/Programming/KT_CPP/includesCPP/eigen3)
-# target_include_directories(${project_name} PUBLIC G:/Programming/KT_CPP/includesCPP/csv)
 
 target_compile_options(${project_name} PRIVATE -m64  -g  -lpthread  -Wall  -pedantic  -lstdc++  -std=c++20  -O3  -ltbb)
 
